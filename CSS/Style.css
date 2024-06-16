@@ -155,7 +155,7 @@ box-shadow: 10px 10px 54px rgba(0,0,0,0.1);
     color: #088178;
     background-color: #fddde4;
 }
-.product-section .product-collection{
+.product-section .pro-collection{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -239,4 +239,101 @@ button.normal{
  border: none;
  curser:pointer;
  outline: none;
+}
+#banners{
+    margin: 0 60px;
+}
+#banners h2 ,h4,span{
+    color: rgb(248, 248, 248);
+}
+#banners .big-banner{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+#banners .big-banner div{
+    min-width: 500px;
+    margin: 15px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    background-size: cover;
+    backdrop-filter: blur(8%);
+}
+#banners .big-banner-1{
+    background-image: url(/HTML/img/banner/b17.jpg);
+}
+#banners .big-banner-2{
+    background-image: url(/HTML/img/banner/b10.jpg);
+}
+#banners .small-banners-1{
+    background-image: url(/HTML/img/banner/b7.jpg);
+}
+#banners .small-banners-2{
+    background-image: url(/HTML/img/banner/b4.jpg);
+}
+#banners .small-banners-3{
+    background-image: url(/HTML/img/banner/b18.jpg);
+
+}
+#banners .big-banner button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight:500 ;
+    background-color: transparent;
+    color: rgb(248, 248, 248);
+    border: 1px solid rgb(248, 248, 248);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#banners .big-banner div:hover button{
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+#banners .small-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banners .small-banners div{
+    min-width: 370px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-size: cover;
+}
+#footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 75px;
+    background-color: #ececec;
+}
+#footer p,#footer a{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+#footer a:hover{
+    color: #088178;
+}
+#footer .about a{
+    display: block;
+    padding: 8px 0;
+}
+#footer .myaccount a{
+    display: block;
+    padding: 8px 0;
+
+}
+#footer .download img{
+    border: 1px solid #08817969;
+    border-radius: 7px;
 }
