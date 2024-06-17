@@ -237,7 +237,7 @@ button.normal{
  color: #000;
  border-radius: 4x;
  border: none;
- curser:pointer;
+ cursor:pointer;
  outline: none;
 }
 #banners{
